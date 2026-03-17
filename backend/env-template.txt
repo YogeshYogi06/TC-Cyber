@@ -1,0 +1,5 @@
+MONGO_URI=mongodb+srv://dbadmin:<Adm1nDB>@passdb.rom3sdf.mongodb.net/passdb?appName=passdb
+NODE_ENV=development
+PORT=3000
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=admin123

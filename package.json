@@ -1,0 +1,35 @@
+{
+  "name": "password-reset-website",
+  "version": "1.0.0",
+  "description": "Full-stack password reset website with React, Node.js, and MongoDB Atlas",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "password-reset",
+    "react",
+    "nodejs",
+    "mongodb",
+    "security",
+    "logging"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/password-reset-website.git"
+  }
+}
